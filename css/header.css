@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    position: relative;
+}
+
+header nav{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+header nav ul{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 1.7em;
+}
+
+header nav ul li #button-active{
+    color: #fe0000;
+    border-bottom: #fe0000;
+}

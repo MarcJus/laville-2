@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+main{
+    background: url("../images/background-page.jpg");
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+    padding: 1px;
+}
+
+main section{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 10px black,
+				-10px 10px 10px black,
+				-10px -10px 10px black,
+				10px -10px 10px black;
+}
+
+main section button{
+    padding: 20px;
+    background: none;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    font-size: 1em;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+main section button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+main section h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+main section h2{
+    color: #fe0000;
+}
+
+section#about{
+    height: 100vh;
+    margin-top: 10px;
+    position: relative;
+    background-image: url("../images/ville-street.jpg");
+}
+
+section#about .text-about{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+section#about .text-about .presentation{
+    font-size: 3.5em;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+section#about .text-about .presentation span{
+    color: #fe0000;
+}
+
+section#about .text-about .lorem{
+    width: 700px;
+    font-size: 1.5em;
+    color: #fe0000;
+}
